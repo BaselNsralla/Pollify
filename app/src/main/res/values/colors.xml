@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimaryRed">#822020</color>
+    <color name="colorPrimaryBlack">#0A0808</color>
+    <color name="colorPrimaryGrey">#545454</color>
+    <color name="colorPrimaryWhite">#F2F2F2</color>
+    <color name="colorSafeBlack">#333333</color>
+    <color name="colorDarkGreen">#39481f</color>
+    <color name="colorCornflowerBlue">#6495ED</color>
+    <color name="colorLightGray">#E8E8E8</color>
+    <color name="colorSmoke">#65F5F5F5</color>
+    <color name="colorHalloweenOrange">#e67e00</color>
+    <color name="colorMidLightGray">#C8C8C8</color>
+    <color name="colorRealGray">#BEBEBE</color>
+    <color name="colorSilver">#C0C0C0</color>
+    <color name="colorLightBlack">#464646</color>
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="colorCornYellow">#edbc64</color>
+
+    <color name="colorDarkMaterialPrimary">#8b86fc</color>
+    <color name="colorDarkMaterialVariant">#3700b3</color>
+    <color name="colorDarkMaterialSecondary">#03DAC6</color>
+    <color name="colorDarkMaterialBackground">#121212</color>
+    <color name="colorDarkMaterialSurface">#1F1B24</color>
+    <color name="colorDarkMaterialError">#CF6679</color>
+    <color name="colorDarkMaterialOnPrimary">#000000</color>
+    <color name="colorDarkMaterialOnSecondary">#000000</color>
+    <color name="colorDarkMaterialOnBackground">#FFFFFF</color>
+    <color name="colorDarkMaterialOnSurface">#FFFFFF</color>
+    <color name="colorDarkMaterialOnError">#000000</color>
+    <color name="colorDarkMaterialPink">#FFD81B60</color>
+    <color name="colorDarkMaterialGrey">#212121</color>
+</resources>

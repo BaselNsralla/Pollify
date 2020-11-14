@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:focusable="true"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:fitsSystemWindows="true"
+    app:layout_constraintTop_toTopOf="parent"
+    android:background="@color/colorDarkMaterialGrey"
+    tools:context=".fragments.MakePollFragment">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/make_poll_toolbar"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        app:title="@string/make_poll_title"
+        android:elevation="4dp"
+        android:theme="@style/DarkToolbarTheme"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_collapseMode="pin"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        tools:ignore="NotSibling" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:background="#00FFFFFF"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/make_poll_toolbar">
+
+
+        <!--    <ImageView
+                android:id="@+id/make_poll_pull_down_image"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:hapticFeedbackEnabled="true"
+                android:src="@drawable/pull_down"
+                android:tint="#5F5A5A"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <EditText
+                android:id="@+id/poll_description_edit"
+                android:layout_width="0dp"
+                android:layout_height="174dp"
+                android:background="@color/colorDarkMaterialGrey"
+                android:ems="10"
+                android:fadingEdge="horizontal|vertical"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="start|left"
+                android:hint="@string/write_a_good_poll"
+                android:inputType="textMultiLine"
+                android:isScrollContainer="true"
+                android:padding="20dp"
+                android:textColor="@color/colorPrimaryWhite"
+                android:textColorHint="@color/colorMidLightGray"
+                android:textCursorDrawable="@drawable/white_cursor"
+                android:textSize="19sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.projekt.tdp028.views.PollOptionsView
+                android:id="@+id/poll_options_container"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/corner_radius_pink"
+                android:fitsSystemWindows="true"
+                android:orientation="vertical"
+                android:padding="10dp"
+                app:layout_constraintEnd_toStartOf="@id/vertical_box_guide"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/poll_description_edit">
+
+
+            </com.projekt.tdp028.views.PollOptionsView>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.51" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/vertical_box_guide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.7" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

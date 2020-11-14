@@ -1,0 +1,90 @@
+{
+    "poll_overview": [
+	    {
+			"id": "sad21322",
+			"text": "Apaaaaan är stor"
+		},
+		{
+			"id": "sad2122",
+			"text": "Contrary to popular belief..."
+		}
+	],
+
+    "poll_detail": {
+		"sad21322": {
+		    "id": "sad21322",
+		    "owner_id": "sad213",
+		    "text": "Apaaaaan är stor och sånt o så o sådär o allt annat",
+		    "options": [
+			{
+			    "id": "i3",
+			    "text": "adssda",
+			    "picks": 4241
+			},
+			{
+			    "id": "i4",
+			    "text": "adssda",
+			    "picks": 432
+			},
+			{
+			    "id": "i5",
+			    "text": "ok",
+			    "picks": 213
+			}
+		    ]
+		},
+		"sad2122": {
+		    "id": "sad2122",
+		    "owner_id": "sad213",
+		    "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+		    "options": [
+			{
+			    "id": "i3",
+			    "text": "adssda",
+			    "picks": 312 
+			},
+			{
+			    "id": "i4",
+			    "text": "adssda",
+			    "picks": 213
+			},
+			{
+			    "id": "i5",
+			    "text": "ok",
+			    "picks": 123
+			}
+		    ]
+		}
+    },
+
+    "users": {
+		"sad213": {
+		    "id": "sad213",
+		    "name": "Michel",
+		    "points": 213,
+		    "created_polls": ["sad21322", "sad21322"],
+		    "answered_polls": {
+			"id3": "zooz",
+			"id4": "wqd"
+		    }
+		},
+	
+		"id7":	{
+		    "id": "id7",
+		    "name": "Fish",
+		    "points": 213,
+		    "created_polls": ["sad21322", "sad21322"],
+		    "answered_polls": {
+			"id3": "zooz",
+			"id4": "wqd"
+		    }
+		}
+    },
+
+    "user_poll_pick": {
+		"sad213": {
+			"sad2122": "i3"
+		}
+    }
+
+}

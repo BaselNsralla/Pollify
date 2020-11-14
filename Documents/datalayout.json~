@@ -1,0 +1,75 @@
+{
+	"poll_overview": [{
+			"id": "sad21322",
+			"text": "APAaaaaa är stor"
+		},
+		{
+			"id": "sad21322",
+			"text": "APAaaaaa är stor"
+		}
+	],
+
+	"poll_detail": [{
+			"id": "sad21322",
+			"owner_id": "sad213",
+			"text": "APAaaaaa är stor",
+			"options": [{
+					"id": "i3",
+					"text": "adssda",
+					"picks": 4241
+				},
+				{
+					"id": "i4",
+					"text": "adssda",
+					"picks": 432
+				},
+				{
+					"id": "i5",
+					"text": "ok",
+					"picks": 213
+				}
+			]
+		},
+		{
+			"id": "sad21322",
+			"owner_id": "sad213",
+			"text": "APAaaaaa är stor",
+			"options": [{
+					"id": "i3",
+					"text": "adssda"
+				},
+				{
+					"id": "i4",
+					"text": "adssda"
+				},
+				{
+					"id": "i5",
+					"text": "ok"
+				}
+			]
+		}
+	],
+
+	"users": [{
+			"id": "sad213",
+			"name": "Michel",
+			"points": 213,
+			"created_polls": ["sad21322", "sad21322"],
+			"answered_polls": {
+				"id3": "zooz",
+				"id4": "wqd"
+			}
+		},
+		{
+			"id": "id7",
+			"name": "Fish",
+			"points": 213,
+			"created_polls": ["sad21322", "sad21322"],
+			"answered_polls": {
+				"id3": "zooz",
+				"id4": "wqd"
+			}
+		}
+	]
+
+}

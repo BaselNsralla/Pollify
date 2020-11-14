@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PollOptionRadioView" parent="RadioGroup">
+
+    </declare-styleable>
+
+    <declare-styleable name="PollOptionsView" parent="LinearLayout">
+
+    </declare-styleable>
+
+    <declare-styleable name="FlexButton" parent="androidx.appcompat.widget.AppCompatButton">
+
+    </declare-styleable>
+</resources>

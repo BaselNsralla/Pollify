@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">TDP028</string>
+    <string name="vote">Vote</string>
+    <string name="login">Logga in</string>
+    <string name="username">Användarnamn</string>
+    <string name="password">Lösenord</string>
+    <string name="no">Nein</string>
+    <string name="spin_me">Spin me</string>
+    <string name="click_me">Click me</string>
+    <string name="login_with_google">Login with google</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout_button_text">Logout</string>
+    <string name="settings_title">Settings</string>
+    <string name="make_poll_title">Create poll</string>
+    <string name="make_poll_description">Write a good poll</string>
+    <string name="write_a_good_poll">Write a good poll</string>
+    <string name="write_option_hint">Option</string>
+    <string name="click_to_add_option">Click to add more</string>
+    <string name="publish_poll">publish</string>
+    <string name="pollify">Pollify</string>
+    <string name="profile_title">Profile</string>
+    <string name="feed_title">Feed</string>
+    <string name="invite">invite</string>
+    <string name="invitation_message">Please download this app</string>
+    <string name="invitation_deep_link">http://www.404.com</string>
+    <string name="invitation_title">Pollify app</string>
+
+    <string-array name="language_array">
+            <item>null|Select language</item>
+            <item>ja|Japanese</item>
+            <item>en|English</item>
+        </string-array>
+
+</resources>

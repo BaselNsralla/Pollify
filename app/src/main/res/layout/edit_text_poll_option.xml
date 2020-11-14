@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginBottom="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/id_option_editText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/corner_radius_material_background"
+        android:hint="@string/write_option_hint"
+        android:imeOptions="actionNext"
+        android:padding="10dp"
+        android:paddingEnd="40dp"
+        android:singleLine="true"
+        android:tag="edit_text"
+        android:textColor="#CCFFFFFF"
+        android:textColorHint="#7FFFFFFF"
+        android:textCursorDrawable="@drawable/halloween_cursor"
+        android:textSize="13sp" />
+
+
+    <ImageButton
+        android:id="@+id/id_close_button"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/close"
+        android:tint="#130101" />
+
+</RelativeLayout>

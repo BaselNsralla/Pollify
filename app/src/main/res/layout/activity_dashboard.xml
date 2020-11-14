@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/full_dashboard"
+    android:theme="@style/AppTheme">
+
+    <LinearLayout
+        android:id="@+id/dashboard_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:theme="@style/AppTheme"
+        tools:context=".activities.Dashboard"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/dashboard_toolbar"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            app:title="@string/pollify"
+            android:elevation="4dp"
+            android:theme="@style/DarkToolbarTheme"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_collapseMode="pin"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            tools:ignore="NotSibling" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--
+                    <androidx.coordinatorlayout.widget.CoordinatorLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dashboard_app_bar"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <com.google.android.material.appbar.AppBarLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <com.google.android.material.appbar.CollapsingToolbarLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:contentScrim="@color/colorDarkMaterialPink"
+                                app:layout_scrollFlags="scroll|snap|exitUntilCollapsed">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="250dp"
+                                    android:src="@drawable/toolbarbg"
+                                    android:scaleType="centerCrop"
+                                    />
+                                <androidx.appcompat.widget.Toolbar
+                                    android:id="@+id/dashboard_toolbar"
+                                    android:layout_height="?attr/actionBarSize"
+                                    android:layout_width="match_parent"
+                                    app:title="@string/profile_title"
+                                    android:elevation="4dp"
+                                    android:theme="@style/DarkToolbarTheme"
+                                    app:layout_collapseMode="pin"
+                                    app:layout_scrollFlags="scroll|enterAlways"
+                                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                                    tools:ignore="NotSibling" />
+                            </com.google.android.material.appbar.CollapsingToolbarLayout>
+                        </com.google.android.material.appbar.AppBarLayout>
+
+                    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+            -->
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/dashboard_content_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:nestedScrollingEnabled="true"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                >
+
+                <FrameLayout
+                    android:id="@+id/fragment_holder"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="vertical"
+                    android:nestedScrollingEnabled="true"
+                    app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
+                    app:layout_constraintTop_toTopOf="@id/dashboard_content_wrapper" />
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/bottom_navigation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorDarkMaterialBackground"
+                    android:elevation="4dp"
+                    app:itemBackground="@color/colorTransparent"
+                    app:itemIconTint="@color/bottom_nav_item_color"
+                    app:itemTextColor="@color/bottom_nav_item_color"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:menu="@menu/bottom_nav_menu" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

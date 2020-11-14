@@ -1,0 +1,31 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+<!--        <item name="colorPrimary">@color/colorDarkMaterialPrimary</item>
+        <item name="colorPrimaryDark">@color/colorDarkMaterialBackground</item>
+        <item name="colorAccent">@color/colorDarkMaterialPink</item>
+        <item name="android:background">@color/colorDarkMaterialSurface</item>
+        <item name="android:textColor">@color/colorDarkMaterialOnBackground</item>-->
+    </style>
+
+    <!-- Base application theme. -->
+  <!--  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>-->
+
+    <style name="DarkToolbarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/colorDarkMaterialSurface</item>
+        <!--<item name="android:colorBackground">@color/colorPrimaryRed</item>-->
+        <!--<item name="android:homeAsUpIndicator"></item>-->
+        <item name="colorControlNormal">@color/colorDarkMaterialOnBackground</item>
+        <item name="colorPrimary">@color/colorDarkMaterialPrimary</item>
+        <item name="colorPrimaryDark">@color/colorDarkMaterialPrimary</item>
+        <item name="colorAccent">@color/colorDarkMaterialPrimary</item>
+        <item name="android:textColorPrimary">@color/colorDarkMaterialOnSurface</item>
+    </style>
+
+</resources>
